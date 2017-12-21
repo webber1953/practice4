@@ -1,0 +1,57 @@
+div {
+	width:100px;
+	height:100px;
+}
+
+.box1 {
+	background-color:blue;
+	transition:background-color 1s, margin-left 2s;
+}
+
+.box2 {
+	background-color:green;
+	transition:width 1s;
+}
+
+.box3 {
+	background-color:orange;
+	transition:width 1s;
+}
+
+.box4 {
+	background-color:red;
+}
+
+.animate1 {
+	margin-left:100px;
+	background-color:lightblue;
+}
+
+.animate2 {
+	width:300px;
+}
+
+.animate3 {
+	animation: fourthbox 10s;
+}
+
+@keyframes fourthbox {
+	0% {
+
+	}
+	20% {
+		margin-left:100px;
+	}
+	40% {
+		margin-top:100px;
+	}
+	60% {
+		margin-left:0px;
+	}
+	80% {
+		margin-top:0px;
+	}
+	100% {
+
+	}
+}
